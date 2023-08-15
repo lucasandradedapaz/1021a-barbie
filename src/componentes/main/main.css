@@ -1,0 +1,29 @@
+.main{
+
+    background-image: url("../img/Neganfundo.jpg");
+    width: auto;
+    height: 700px;
+    
+}
+
+.meio{
+  padding-top: 300px;
+  padding-left: 100px;
+  color: #fff;
+
+}
+
+.assine{
+
+    background-color: rgb(209, 111, 45);
+    color: #fff;
+    
+  
+}
+
+.text1{
+
+    padding-right: 800px;
+    font-size: 25px;
+    
+}

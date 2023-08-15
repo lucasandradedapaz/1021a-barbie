@@ -1,0 +1,63 @@
+footer{
+    background-color: black;
+
+    color: #fff;
+    display: flex;
+    margin-top: 0px;
+    height: 350px;
+  
+}
+
+Footer h2{
+
+    color: rgb(153, 82, 0) ;
+    font-size: 50px;
+    margin-left: 100px;
+
+
+}
+
+.menu{
+
+    color: #fff;
+    align-items: center;
+    align-content: flex-start;
+    
+   
+
+
+}
+
+.Serie{
+
+    
+    font-size: 25px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+ 
+    
+
+}
+
+.descricao{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+ 
+
+}
+.menu1{
+
+   margin-right: 350px;
+
+}
+.menu2{
+
+  
+  margin-right: 100px;
+    
+}
+
+
+
