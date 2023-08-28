@@ -32,6 +32,7 @@ function Main(){
         <div>
             <a href=""><img src="src/componentes/img/stories.jpg" alt="" /></a> 
         </div>
+        <div></div>
 
         </nav>
     </section>
