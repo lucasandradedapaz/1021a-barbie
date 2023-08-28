@@ -31,8 +31,12 @@ import './Footer.css'
             </nav>
             </section>
 
+           
+         
 
-        </footer>
+
+     </footer>
+
 
 
 

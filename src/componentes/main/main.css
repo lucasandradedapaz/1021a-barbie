@@ -1,29 +1,60 @@
 .main{
 
     background-image: url("../img/Neganfundo.jpg");
-    width: auto;
+    width: 100%;
     height: 700px;
-    
+   
 }
 
 .meio{
-  padding-top: 300px;
+  padding-top: 200px;
   padding-left: 100px;
   color: #fff;
+  
 
 }
 
 .assine{
+    background: linear-gradient(to right, rgb(139, 23, 2), rgb(214, 55, 27));
 
-    background-color: rgb(209, 111, 45);
-    color: #fff;
     
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: #fff;
   
 }
 
+
+
+
 .text1{
 
-    padding-right: 800px;
+    padding-right: 950px;
     font-size: 25px;
     
+}
+
+.text2{
+
+    padding-top: 50px;
+    font-size: 20px;
+}
+.carrosel{
+    display: flex;
+    
+    
+}
+.imgcarrosel{
+    display: flex;
+}
+.carrosel img{
+    padding-left: 100px;
+    width: 230px;
+    
+    
+   
 }
