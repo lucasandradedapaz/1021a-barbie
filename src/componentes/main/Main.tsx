@@ -20,7 +20,7 @@ function Main(){
         <nav className="imgcarrosel">
         <div>
             
-           <a href=""><img src="src/componentes/img/gruporick1temp.jpg" alt="gruporick1temp.jpg" /></a> 
+           <a href=""><img src="src/componentes/img/gruporick1temp.jpg" alt="#" /></a> 
         </div>
 
         <div>
