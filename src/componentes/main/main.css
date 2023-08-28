@@ -25,9 +25,18 @@
     padding-left: 5px;
     border-radius: 5px;
     color: #fff;
+
+   
   
 }
-
+.assine
+{
+        opacity:0.5;
+}
+.assine:hover
+{
+        opacity:1;
+}
 
 
 
