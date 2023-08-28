@@ -19,20 +19,20 @@ function Main(){
         <nav className="imgcarrosel">
         <div>
             
-           <a href=""><img src="src/componentes/img/gruporick1temp.jpg" alt="" /></a> 
+           <a href=""><img src="gruporick1temp.jpg" alt="" /></a> 
         </div>
 
         <div>
-            <a href=""><img src="src/componentes/img/a matriarca.jpg" alt="" /></a> 
+            <a href=""><img src="a matriarca.jpg" alt="" /></a> 
         </div>
         <div>
-           <a href=""><img src="src/componentes/img/noites brutais.jpg" alt="" /></a> 
+           <a href=""><img src="noites brutais.jpg" alt="" /></a> 
         </div>
 
         <div>
-            <a href=""><img src="src/componentes/img/stories.jpg" alt="" /></a> 
+            <a href=""><img src="stories.jpg" alt="" /></a> 
         </div>
-        <div></div>
+        
 
         </nav>
     </section>
