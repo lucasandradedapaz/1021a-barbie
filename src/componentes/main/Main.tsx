@@ -1,8 +1,8 @@
 import "./main.css"
 import filme1 from "../img/gruporick1temp.jpg";
-import filme2 from "src/componentes/img/a matriarca.jpg";
-import filme3 from "src/componentes/img/noites brutais.jpg";
-import filme4 from "src/componentes/img/stories.jpg";
+import filme2 from "../img/a matriarca.jpg";
+import filme3 from "../img/noites brutais.jpg";
+import filme4 from "../img/stories.jpg";
 
 
 
