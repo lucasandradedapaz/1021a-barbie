@@ -1,5 +1,8 @@
 import "./main.css"
 import filme1 from "../img/gruporick1temp.jpg";
+import filme2 from "src/componentes/img/a matriarca.jpg";
+import filme3 from "src/componentes/img/noites brutais.jpg";
+import filme4 from "src/componentes/img/stories.jpg";
 
 
 
@@ -30,14 +33,14 @@ function Main(){
         </div>
 
         <div>
-            <a href=""><img src="src/componentes/img/a matriarca.jpg" alt="#" /></a> 
+            <a href=""><img src={filme2} alt="#" /></a> 
         </div>
         <div>
-           <a href=""><img src="src/componentes/img/noites brutais.jpg" alt="#" /></a> 
+           <a href=""><img src={filme3} alt="#" /></a> 
         </div>
 
         <div>
-            <a href=""><img src="src/componentes/img/stories.jpg" alt="#" /></a> 
+            <a href=""><img src={filme4}alt="#" /></a> 
         </div>
         
 
