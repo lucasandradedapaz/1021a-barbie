@@ -1,7 +1,12 @@
 import "./main.css"
+import filme1 from "../img/gruporick1temp.jpg";
+
+
+
 
 
 function Main(){
+    
 
     return(
 
@@ -20,7 +25,8 @@ function Main(){
         <nav className="imgcarrosel">
         <div>
             
-           <a href=""><img src="src/componentes/img/gruporick1temp.jpg" alt="#" /></a> 
+            
+           <a href=""><img src={filme1} alt="#" /></a> 
         </div>
 
         <div>
