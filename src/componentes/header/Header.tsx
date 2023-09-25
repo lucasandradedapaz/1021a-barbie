@@ -1,12 +1,15 @@
+
+ 
  import './Header.css'
  import Link from './../link/Links'
+ import logoheader from "../img/The-Walking-Dead-PNG-Transparent.png"
 
  function Header(){
 
     return(
         <header>
             <div>
-                <h1>The Walking Dead</h1>
+            <a className='logoheader' href=""><img src={logoheader} alt="#" /></a>
             </div>
 
             <nav>

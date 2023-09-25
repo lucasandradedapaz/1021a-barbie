@@ -1,4 +1,6 @@
 import './Footer.css'
+import logofooter from "../img/logofooter.jpg"
+
  
 
  function Footer(){
@@ -6,14 +8,14 @@ import './Footer.css'
     return(
         <footer className='menu'>
             <nav>
-            <h2>The Walking Dead</h2>
+            <a className='logofooter' href=""><img src={logofooter} alt="#" /></a>
 
             <p className='Serie'>A série acompanha um grupo de sobreviventes durante um apocalipse zumbi. Às vezes, os conflitos interpessoais geram tanto perigo que alguns fazem de tudo para sobreviver.</p>
             
             </nav>
 
 
-<section className='descricao'>
+<section className='descricaofooter'>
 
             <nav className='menu1'>
                 <p>Duração: 1h 7min</p>
