@@ -1,44 +1,48 @@
-import './Footer.css'
-import logofooter from "../img/logofooter.jpg"
+import './Footer.css';
+import instagram from "../img/instagram.png";
+import facebook from "../img/facebook.png";
+import whatsapp from "../img/whatsapp-removebg-preview.png";
+import barbienegan from "../img/barbienegan.jpg"
 
  
 
  function Footer(){
 
     return(
-        <footer className='menu'>
+        <footer>
             <nav>
-            <a className='logofooter' href=""><img src={logofooter} alt="#" /></a>
-
-            <p className='Serie'>A série acompanha um grupo de sobreviventes durante um apocalipse zumbi. Às vezes, os conflitos interpessoais geram tanto perigo que alguns fazem de tudo para sobreviver.</p>
-            
+            <a href=""><img className='barbienegan' src={barbienegan} alt="#" /></a>
+        
             </nav>
 
+            <nav className='contato'>
 
-<section className='descricaofooter'>
+                <p>Você pode entrar em contato também em:</p>
+                <a href=""><img src={instagram} alt="#" /></a> 
+                <a href=""><img src={facebook} alt="#" /></a> 
+                <a href=""><img className='whatsapp' src={whatsapp} alt="#" /></a> 
 
-            <nav className='menu1'>
-                <p>Duração: 1h 7min</p>
-                <p>Data de lançamento: 2010-2021</p>
-                <p>Gênero:Sobrevivência, Drama, Terror</p>
-                <p>Classificação da temporada 1:Medo e Violência Extrema</p>
             </nav>
 
-            <nav className='menu2'>
-                <p>Criação: Frank Darabont</p>
-                <p>Elenco:</p>
-                <p>Andrew Lincoln</p>
-                <p>Jon Bernthal</p>
-                <p>Sarah Wayne Callies</p>
-            </nav>
-            </section>
+            <nav className='Sobreviventes'>
+            <p>Sobreviventes</p>
+                    <p>Rick</p>
+                    <p>Daryl</p>
+                    <p>Kerl</p>
+                    <p>Shenon</p>
+                    <p>Negan</p>
+                </nav>
 
-           
-         
+                <nav className='Mortos'>
+                <p>Mortos</p>
+                    <p>Glen</p>
+                    <p>Governador</p>
+                    <p>Carl</p>
+                    <p>Merlin</p>
+                    <p>Sofia</p>
+                </nav>
 
-
-     </footer>
-
+        </footer>
 
 
 

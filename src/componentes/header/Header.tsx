@@ -1,45 +1,30 @@
-
- 
  import './Header.css'
- import Link from './../link/Links'
- import logoheader from "../img/The-Walking-Dead-PNG-Transparent.png"
-
+ import LinkNav from '../linknav/LinkNav'
+ import barbienegan from "../img/barbienegan.jpg"
  function Header(){
-
-    return(
-        <header>
-            <div>
-            <a className='logoheader' href=""><img src={logoheader} alt="#" /></a>
-            </div>
-
-            <nav>
-                <ul>
-                    
-                    <li>
-                       <Link texto='Home'/>
-                    </li>
-
-                    <li>
-                       <Link texto='Noticias'/>
-                    </li>
-
-                    <li>
-                        <Link texto='sobre'/>
-                    </li>
-
-                    <li>
-                        <Link texto='contato'/>
-                    </li>
-                </ul>
-            </nav>
-
-           
-           
-        </header>
-
-
-
-    )
-
-} 
-export default Header
+     return(
+         <header>
+             <div>
+             <img src={barbienegan}></img>
+             </div>
+             <nav>
+                 <ul>
+                     <li>
+                         <LinkNav url="/" texto='Home'/>
+                     </li>
+                     <li>
+                         <LinkNav url="/noticias" texto='Notícia'/>
+                     </li>
+                     <li>
+                         <LinkNav url="/sobre" texto='Sobre'/>
+                     </li>
+                     <li>
+                         <LinkNav url="/contato" texto='Contato'/>
+                     </li>
+                 </ul>
+             </nav>
+         </header>
+     )
+ }
+ 
+ export default Header
